@@ -65,7 +65,7 @@ app.post('/api', (req, res) => {
 
 
       // Both versions
-      const bitly = new BitlyClient('a5d7ae50ac71328e2957a318a7d8796a556d16ce');
+      const bitly = new BitlyClient('46b4040b580756e27235b3c62a8fc779c1723cde');
       var resu = "";
       var roomurl = data.roomUrl
       async function example(roomurl) {
